@@ -7,25 +7,46 @@
 body{
  /* display: flex; */
  /* align-items: center; */
-  justify-content: center;
-  font-family: 'Poppins', sans-serif;
-  background-color: #d8d6d2;
+ background-image: url(img/carrots.jpeg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 100vh;
+ background-position: center center;
+ display: flex;
+ justify-content: center;
+ font-family: 'Poppins', sans-serif;
+ background-color: #e9e8e6;
+ margin: 0;
 }
+
+/* Add a dark overlay */
+body::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+body * {
+  z-index: 1;
+}
+
+
 
 h1{
   margin: 15px;
-  color: #95a5a6;
+  color: #eff7f7;
   text-align: center;
 
 }
 
-img {
-  height: 100px;
-  width: 100px;
-  border-radius: 5px;
-  left: -70%;
-  top: -55%;
+h2{
+  color: #fff;
 }
+
 
 .container {
   margin: auto;
@@ -148,7 +169,7 @@ input[type="text"]{
   margin: 10px;
   letter-spacing: 0.5px;
   line-height: 1.5;
-  background-color: #cc9999;
+  background-color: #eee657;
   border-radius: 5px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
   
@@ -164,7 +185,7 @@ input[type="text"]{
 .single-meal ul li {
   border: 1px solid #f7f0f0;
   border-radius: 5px;
-  background-color: #252525;
+  background-color: #eee657;
   display: inline-block;
   color: #fff;
   font-size: 12px;
