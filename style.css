@@ -40,7 +40,7 @@ body * {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 30px;
-  background-color: #f5f5f5;
+  background-color: #9dd153;
   justify-content: end;
 
 }
@@ -50,6 +50,59 @@ body * {
   padding-left: 15px;
 }
 
+.footer p {
+  text-align: center;
+  justify-content: space-between;
+  margin: 0;
+  color: #757676;
+  font-size: 20px;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 10px;
+  font-size: 10px;
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px;
+  justify-content: center;
+  margin: 10px;
+  float: right;
+
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #eee657;
+  color: white;
+  
+  
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #eee657;
+  color: white;
+}
+
+.fa-instagram {
+  background: #eee657;
+  color: white;
+}
+
+.fa-pinterest{
+  background: #eee657;
+  color: white;
+}
 
 
 h1{
@@ -60,7 +113,7 @@ h1{
 }
 
 h2{
-  color: #fff;
+  color: #757676;
 }
 
 
