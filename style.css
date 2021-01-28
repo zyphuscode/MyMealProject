@@ -7,7 +7,7 @@
 body{
  /* display: flex; */
  /* align-items: center; */
- background-image: url(img/carrots.jpeg);
+ background-image: url(img/white-abstract-background-vector-png_110577.jpg);
  background-repeat: no-repeat;
  background-size: cover;
  height: 100vh;
@@ -25,9 +25,9 @@ body::after {
   position: absolute;
   top: 0;
   left: 0;
-  width: 200%;
-  height: 200%;
-  background-color: rgba(0, 0, 0, 0.4);
+  width: 300%;
+  height: 300%;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 body * {
@@ -187,7 +187,7 @@ input[type="text"]{
   border-radius: 5px;
   background-color: #eee657;
   display: inline-block;
-  color: #fff;
+  color: black;
   font-size: 12px;
   font-weight: bold;
   padding: 5px;
