@@ -4,6 +4,8 @@ const random = document.getElementById("random");
 const mealsEl = document.getElementById("meals");
 const resultHeading = document.getElementById("result-heading");
 const single_mealEL = document.getElementById("single-meal");
+const toggle = document.getElementById("toggle");
+
 
 //const apiKey = "a9b8493813c64a31bca4da68c77cb990";
 
