@@ -10,7 +10,7 @@ body{
  background-image: url(img/white-abstract-background-vector-png_110577.jpg);
  background-repeat: no-repeat;
  background-size: cover;
- height: 100vh;
+ /*height: 100vh; */
  background-position: center center;
  display: flex;
  justify-content: center;
@@ -107,16 +107,17 @@ body * {
 }
 
 nav {
-  background-color:#9dd153 ;
+  background-color:#c2eb88 ;
   border-right: 2px solid rgba(200, 200, 200, 0.1);
   color: #fff;
-  position: fixed;
+  position:fixed;
   top: 0;
   left: 0;
   width: 200px;
   height: 100vh;
   z-index: 100;
   transform: translateX(-100%); 
+  box-shadow: 0 8px 6px -6px black;
 }
 
 nav .logo {
@@ -154,6 +155,15 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline;
   
+}
+
+.toggle {
+  background-color: #e9e8e6;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color:#eee657;
+  border-radius: 5px;
 }
 
 body.show-nav{

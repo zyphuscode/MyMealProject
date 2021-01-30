@@ -113,6 +113,10 @@ function addMealToDom(meal){
 submit.addEventListener("submit", searchMeal);
 random.addEventListener("click", getRandomMeal);
 
+toggle.addEventListener("click", () => 
+document.body.classList.toggle("show-nav"));
+
+
 mealsEl.addEventListener("click", e=> {
   const mealInfo = e.path.find(item => {
     console.log(item);
